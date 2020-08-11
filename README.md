@@ -11,6 +11,8 @@ Consideraciones:
 
 - Para obtener registro de los outputs, la carpeta "Outputs_TSP" debe estar creada.
 
+- Las instancias que se probarán son las que se encuentren dentro de la carpeta "Instancias_TSP", un conjunto de instancias de ejemplo se encuentra dentro de la carpeta "instances".
+
 - Algunas instancias no coinciden en formato, dado que estaba corto de tiempo preferí modificar directamente los archivos de estas, el problemas al que me refiero es que 3 de ellas en la descripcion de las primeras lineas utiliza un espacio antes de ':' quedando como un string distinto al parsearlo (e.g. NAME : d198 ) el resto de ellas (2) no utilizan ese espacio, por lo que decidí dejarlas todas con la separación. Si se prueban otras instancias y tienen conflictos con el formato, el programa se caerá, para probar estas nuevas instancias, basta con incluirlas en la carpeta de "Instancias_TSP".
 
 - Para esta entrega se implementó un sintonizador simple para probar valores del parámetro TLLengthMultiplier, los valores que se probarán son controlados por los parámetros {intervalMin, intervalMax, intervalLength}. Una descripción de estos parámetros se encuentra al final del documento.
